@@ -1,0 +1,124 @@
+.chat-window{
+    /* width:80%;
+    height:80%; */
+    width: 300px;
+    height: 420px;
+}
+.chat-header{
+    height:50px;
+    border-radius:5px;
+    background-color:grey;
+    position:relative;
+
+}
+.paragraph{
+    display:block;
+    padding:0 1em 0 2em;
+    color:#ffff;
+    font-weight:700;
+    font-family:"Roboto";
+    line-height: 45px;
+    text-align:center;
+}
+.chat-body{
+    height:500px;
+    border:2px solid black;
+    background-color:#ffff;
+    position:relative;
+}
+.chat-window .chat-body .message-container {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  
+  .chat-window .chat-body .message-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .message{
+      height:auto;
+      padding:10px;
+      display:flex;
+  }
+  .message-paragraph{
+      font-family:"Roboto";
+      text-align:center;
+      font-weight:bold;
+  }
+  .content{
+      font-family:"Roboto";
+      color:darkgrey;
+      font-weight:bold;
+      margin-right:2px;
+
+  }
+  .content-name{
+      color:balck;
+      font-family:"Roboto";
+      font-weight:bold;
+      margin-right:2px;
+  }
+
+  .message-content{
+    width: auto;
+    height: auto;
+    min-height: 40px;
+    max-width: 120px;
+    background-color:darkgreen;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+  .message-meta{
+      display: flex;
+      font-size:12px;
+  }
+  .chat-footer{
+      display:flex;
+  }
+
+  .send-button{
+      height: 50px;
+      border-width:0;
+      cursor:pointer;
+      align-self:center;
+  }
+  .send-button:hover{
+      background-color:darkgreen;
+  }
+  #you {
+    justify-content: flex-start;
+  }
+  
+  #you .message-content {
+    justify-content: flex-start;
+  }
+  
+  #you .message-meta {
+    justify-content: flex-start;
+    margin-left: 5px;
+  }
+  
+  #other {
+    justify-content: flex-end;
+  }
+  
+  #other .message-content {
+    justify-content: flex-end;
+    background-color: rgb(160, 112, 236);
+  }
+  
+  #other .message-meta {
+    justify-content: flex-end;
+    margin-right: 5px;
+  }
+  

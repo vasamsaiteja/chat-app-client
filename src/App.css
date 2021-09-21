@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.chat-container{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+} 
+
+input{
+    font-family:"Roboto";
+    font-weight:900;
+    height:30px;
+    border:2px solid black;
+    border-radius: 5px;
+    margin:8px;
+    padding:15px;
+}
+
+button{
+    font-family:"Roboto";
+    font-size:20px;
+    height:30px;
+    background-color:#cbd2d9;
+    border-radius:2px;
+    margin:8px;
+    padding-left:25px;
+    padding-right:25px;
+    font-weight:bold;
+}
+
+.button-join{
+    padding-bottom:35px;
+    padding-top:15px;
+    text-align:center;
+    border-width:0;
+}
+.button-join:hover{
+    background-color:#2e7d32;
+    cursor:pointer;
+}
+.App{
+    width:100vw;
+    height:100vh;
+    background-color: #ffff;
+    color:#212121;
+    display:grid;
+    place-items:center;
+}
+.heading{
+    font-family:"Roboto";
+    font-size:30px;
+    font-weight:bold;
+}
